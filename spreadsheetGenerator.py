@@ -80,7 +80,7 @@ def extractRoomData(masterListCSV):
 				writer = csv.DictWriter(subFile, fieldnames=fieldnames)
 				for i in range(capacity):
 					writer.writerow({"Code":room["Bldg/Room"], "Building":room["Building Code"],
-										"Room":room["Building Code"][5:], "Room Type":room["Room Type"],
+										"Room":room["Bldg/Room"][5:], "Room Type":room["Room Type"],
 										"Capacity":capacity, "Adj Rm":room["Adjoining Rooms"],
 										"Room Key":room["Room Key"], "Outside Key":room["Outside Key"]})
 
