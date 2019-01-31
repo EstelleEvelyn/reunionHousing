@@ -41,18 +41,18 @@ Iterates through every room in the master file and adds it to the CSV correspond
 def extractRoomData(masterListCSV):
 
   	#Only update the appropriate years in this list
-	housingKeyDict = {"ALLE":"Unassigned", "BENT":"Benton,Huntington \'08",
-					"BERG":"Berg \'08,Hunt Cottage \'93", "BRKS":"North TH \'84, \'94",
+	housingKeyDict = {"ALLE":"Unassigned", "BENT":"Benton,Huntington \'09",
+					"BERG":"Berg \'09,Hunt Cottage \'94", "BRKS":"North TH \'84, \'94",
 					"BURT":"Burton \'94", "CASS":"Cassat \'79, \'69, \'99",
-					"CHAN":"Fac Club,Chaney \'08", "CLWL":"South TH \'74",
+					"CHAN":"Fac Club,Chaney \'09", "CLWL":"South TH \'74",
 					"COLR":"North TH \'84, \'94", "DAVI":"Davis \'54, \'59",
 					"DIXN":"South TH \'74", "DOUG":"Parish,Douglas \'09",
 					"DOWH":"South TH \'74", "EUGS":"North TH \'84, \'94",
-					"EVAN":"Evans \'04", "FACL":"Fac Club,Chaney \'08",
+					"EVAN":"Evans \'04", "FACL":"Fac Club,Chaney \'09",
 					"FARM":"Unassigned", "GFRT":"Unassigned", "GHUE":"Goodhue \'14",
-					"HALL":"North TH \'84, \'94", "HCTG":"Berg \'08,Hunt Cottage \'93",
+					"HALL":"North TH \'84, \'94", "HCTG":"Berg \'09,Hunt Cottage \'94",
 					"HNRK":"South TH \'74", "HNTH":"South TH \'74",
-					"HUNT":"Benton,Huntington \'08", "JEWE":"Jewett,Page W,Rice,Wade \'09",
+					"HUNT":"Benton,Huntington \'09", "JEWE":"Jewett,Page W,Rice,Wade \'09",
 					"JMES":"James \'99", "MUSS":"Musser - Student Housing",
 					"MYER":"Myers \'89", "NASN":"North TH \'84, \'94",
 					"NOUR":"Nourse \'64, \'69", "OWNS":"North TH \'84, \'94",
@@ -88,8 +88,8 @@ def extractRoomData(masterListCSV):
 def main():
 
 	#Only change the years in this list
-	areaList = ["Unassigned", "Benton,Huntington \'08", "Berg \'08,Hunt Cottage \'93",
-				"North TH \'84, \'94", "Burton \'94", "Cassat \'79, \'69, \'99", "Fac Club,Chaney \'08",
+	areaList = ["Unassigned", "Benton,Huntington \'09", "Berg \'09,Hunt Cottage \'94",
+				"North TH \'84, \'94", "Burton \'94", "Cassat \'79, \'69, \'99", "Fac Club,Chaney \'09",
 				"South TH \'74", "Davis \'54, \'59", "Parish,Douglas \'09", "Evans \'04", "Goodhue \'14",
 				"Jewett,Page W,Rice,Wade \'09", "James \'99", "Musser - Student Housing", "Myers \'89",
 				"Nourse \'64, \'69", "Sevy \'94", "Watson \'69"]
